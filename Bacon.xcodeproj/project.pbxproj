@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		36741A6121FEBE32009D19D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36741A6021FEBE32009D19D5 /* AppDelegate.m */; };
-		36741A6421FEBE32009D19D5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36741A6321FEBE32009D19D5 /* ViewController.m */; };
+		362DB344220BA06B002BC801 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 362DB343220BA06B002BC801 /* GoogleService-Info.plist */; };
+		365C90792202CF0600AD4095 /* creativeViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 365C90782202CF0600AD4095 /* creativeViewController1.m */; };
+		365C907C2202CF4200AD4095 /* recommendationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 365C907B2202CF4100AD4095 /* recommendationViewController.m */; };
+		365C907E2202D08600AD4095 /* ooking.png in Resources */ = {isa = PBXBuildFile; fileRef = 365C907D2202D08500AD4095 /* ooking.png */; };
+		365C90A72202D11000AD4095 /* icons8-restaurant-table-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 365C90992202D10E00AD4095 /* icons8-restaurant-table-25.png */; };
 		36741A6721FEBE32009D19D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36741A6521FEBE32009D19D5 /* Main.storyboard */; };
 		36741A6A21FEBE32009D19D5 /* Bacon.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 36741A6821FEBE32009D19D5 /* Bacon.xcdatamodeld */; };
 		36741A6C21FEBE32009D19D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36741A6B21FEBE32009D19D5 /* Assets.xcassets */; };
@@ -16,6 +19,12 @@
 		36741A7221FEBE33009D19D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 36741A7121FEBE33009D19D5 /* main.m */; };
 		36741A7C21FEBE33009D19D5 /* BaconTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 36741A7B21FEBE33009D19D5 /* BaconTests.m */; };
 		36741A8721FEBE33009D19D5 /* BaconUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 36741A8621FEBE33009D19D5 /* BaconUITests.m */; };
+		36BD69FA21FEEE8A00A4C49E /* creativeViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 36BD69F921FEEE8A00A4C49E /* creativeViewController2.m */; };
+		36BD69FD21FEEEA300A4C49E /* detailPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36BD69FC21FEEEA300A4C49E /* detailPageViewController.m */; };
+		36BD69FE21FEF65100A4C49E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36741A6021FEBE32009D19D5 /* AppDelegate.m */; };
+		4BC142820C740449B3EF941E /* libPods-BaconUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A001000AF1DF922BCCB05EF7 /* libPods-BaconUITests.a */; };
+		8A88EDF31287247DF99A26A4 /* libPods-Bacon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F2E3074E399846C86F3A1A1F /* libPods-Bacon.a */; };
+		E6E8424A844B43CB7BA68EE1 /* libPods-BaconTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 692C72AA05C2721F05C272F0 /* libPods-BaconTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +45,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05CC00BBF5CB52F640E4F31A /* Pods-BaconTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaconTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BaconTests/Pods-BaconTests.release.xcconfig"; sourceTree = "<group>"; };
+		21C0E50ED0EDB18B76E25DC7 /* Pods-BaconUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaconUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BaconUITests/Pods-BaconUITests.release.xcconfig"; sourceTree = "<group>"; };
+		259C0AD09A67CBEB7615E0F4 /* Pods-Bacon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bacon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bacon/Pods-Bacon.debug.xcconfig"; sourceTree = "<group>"; };
+		292E2F67D0C402F389DED9EA /* Pods-BaconTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaconTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BaconTests/Pods-BaconTests.debug.xcconfig"; sourceTree = "<group>"; };
+		362DB343220BA06B002BC801 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		365C90782202CF0600AD4095 /* creativeViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = creativeViewController1.m; sourceTree = "<group>"; };
+		365C907A2202CF4100AD4095 /* recommendationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = recommendationViewController.h; sourceTree = "<group>"; };
+		365C907B2202CF4100AD4095 /* recommendationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = recommendationViewController.m; sourceTree = "<group>"; };
+		365C907D2202D08500AD4095 /* ooking.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ooking.png; sourceTree = "<group>"; };
+		365C90992202D10E00AD4095 /* icons8-restaurant-table-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-restaurant-table-25.png"; sourceTree = "<group>"; };
 		36741A5C21FEBE32009D19D5 /* Bacon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bacon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36741A5F21FEBE32009D19D5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		36741A6021FEBE32009D19D5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		36741A6221FEBE32009D19D5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		36741A6321FEBE32009D19D5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		36741A6621FEBE32009D19D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		36741A6921FEBE32009D19D5 /* Bacon.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bacon.xcdatamodel; sourceTree = "<group>"; };
 		36741A6B21FEBE32009D19D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +70,16 @@
 		36741A8221FEBE33009D19D5 /* BaconUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaconUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		36741A8621FEBE33009D19D5 /* BaconUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaconUITests.m; sourceTree = "<group>"; };
 		36741A8821FEBE33009D19D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36BD69F521FEEE7B00A4C49E /* creativeViewController1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = creativeViewController1.h; sourceTree = "<group>"; };
+		36BD69F821FEEE8A00A4C49E /* creativeViewController2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = creativeViewController2.h; sourceTree = "<group>"; };
+		36BD69F921FEEE8A00A4C49E /* creativeViewController2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = creativeViewController2.m; sourceTree = "<group>"; };
+		36BD69FB21FEEEA300A4C49E /* detailPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = detailPageViewController.h; sourceTree = "<group>"; };
+		36BD69FC21FEEEA300A4C49E /* detailPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = detailPageViewController.m; sourceTree = "<group>"; };
+		692C72AA05C2721F05C272F0 /* libPods-BaconTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BaconTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A001000AF1DF922BCCB05EF7 /* libPods-BaconUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BaconUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5A18AD71B3D6041925E4870 /* Pods-BaconUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaconUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BaconUITests/Pods-BaconUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DFC13B0045415D6965844BEC /* Pods-Bacon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bacon.release.xcconfig"; path = "Pods/Target Support Files/Pods-Bacon/Pods-Bacon.release.xcconfig"; sourceTree = "<group>"; };
+		F2E3074E399846C86F3A1A1F /* libPods-Bacon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Bacon.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A88EDF31287247DF99A26A4 /* libPods-Bacon.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6E8424A844B43CB7BA68EE1 /* libPods-BaconTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BC142820C740449B3EF941E /* libPods-BaconUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +117,8 @@
 				36741A7A21FEBE33009D19D5 /* BaconTests */,
 				36741A8521FEBE33009D19D5 /* BaconUITests */,
 				36741A5D21FEBE32009D19D5 /* Products */,
+				CA5C9AF2745A4D0D275FFCDD /* Pods */,
+				7CCD40CD0384E95F8290B6B7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,15 +136,24 @@
 			isa = PBXGroup;
 			children = (
 				36741A5F21FEBE32009D19D5 /* AppDelegate.h */,
+				36BD69F521FEEE7B00A4C49E /* creativeViewController1.h */,
+				36BD69F821FEEE8A00A4C49E /* creativeViewController2.h */,
+				36BD69FB21FEEEA300A4C49E /* detailPageViewController.h */,
+				365C907A2202CF4100AD4095 /* recommendationViewController.h */,
 				36741A6021FEBE32009D19D5 /* AppDelegate.m */,
-				36741A6221FEBE32009D19D5 /* ViewController.h */,
-				36741A6321FEBE32009D19D5 /* ViewController.m */,
-				36741A6521FEBE32009D19D5 /* Main.storyboard */,
-				36741A6B21FEBE32009D19D5 /* Assets.xcassets */,
-				36741A6D21FEBE32009D19D5 /* LaunchScreen.storyboard */,
-				36741A7021FEBE33009D19D5 /* Info.plist */,
+				365C90782202CF0600AD4095 /* creativeViewController1.m */,
+				36BD69F921FEEE8A00A4C49E /* creativeViewController2.m */,
+				36BD69FC21FEEEA300A4C49E /* detailPageViewController.m */,
 				36741A7121FEBE33009D19D5 /* main.m */,
+				365C907B2202CF4100AD4095 /* recommendationViewController.m */,
+				36741A7021FEBE33009D19D5 /* Info.plist */,
+				365C90992202D10E00AD4095 /* icons8-restaurant-table-25.png */,
+				365C907D2202D08500AD4095 /* ooking.png */,
+				36741A6B21FEBE32009D19D5 /* Assets.xcassets */,
 				36741A6821FEBE32009D19D5 /* Bacon.xcdatamodeld */,
+				36741A6D21FEBE32009D19D5 /* LaunchScreen.storyboard */,
+				36741A6521FEBE32009D19D5 /* Main.storyboard */,
+				362DB343220BA06B002BC801 /* GoogleService-Info.plist */,
 			);
 			path = Bacon;
 			sourceTree = "<group>";
@@ -135,6 +176,29 @@
 			path = BaconUITests;
 			sourceTree = "<group>";
 		};
+		7CCD40CD0384E95F8290B6B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F2E3074E399846C86F3A1A1F /* libPods-Bacon.a */,
+				692C72AA05C2721F05C272F0 /* libPods-BaconTests.a */,
+				A001000AF1DF922BCCB05EF7 /* libPods-BaconUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA5C9AF2745A4D0D275FFCDD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				259C0AD09A67CBEB7615E0F4 /* Pods-Bacon.debug.xcconfig */,
+				DFC13B0045415D6965844BEC /* Pods-Bacon.release.xcconfig */,
+				292E2F67D0C402F389DED9EA /* Pods-BaconTests.debug.xcconfig */,
+				05CC00BBF5CB52F640E4F31A /* Pods-BaconTests.release.xcconfig */,
+				D5A18AD71B3D6041925E4870 /* Pods-BaconUITests.debug.xcconfig */,
+				21C0E50ED0EDB18B76E25DC7 /* Pods-BaconUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -142,6 +206,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 36741A8B21FEBE33009D19D5 /* Build configuration list for PBXNativeTarget "Bacon" */;
 			buildPhases = (
+				0D30F38F30D30D59E7C4F4CC /* [CP] Check Pods Manifest.lock */,
 				36741A5821FEBE32009D19D5 /* Sources */,
 				36741A5921FEBE32009D19D5 /* Frameworks */,
 				36741A5A21FEBE32009D19D5 /* Resources */,
@@ -159,6 +224,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 36741A8E21FEBE33009D19D5 /* Build configuration list for PBXNativeTarget "BaconTests" */;
 			buildPhases = (
+				2385224AAE4C60E672DB0C41 /* [CP] Check Pods Manifest.lock */,
 				36741A7321FEBE33009D19D5 /* Sources */,
 				36741A7421FEBE33009D19D5 /* Frameworks */,
 				36741A7521FEBE33009D19D5 /* Resources */,
@@ -177,6 +243,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 36741A9121FEBE33009D19D5 /* Build configuration list for PBXNativeTarget "BaconUITests" */;
 			buildPhases = (
+				27C276944E759B82E14F4F6C /* [CP] Check Pods Manifest.lock */,
 				36741A7E21FEBE33009D19D5 /* Sources */,
 				36741A7F21FEBE33009D19D5 /* Frameworks */,
 				36741A8021FEBE33009D19D5 /* Resources */,
@@ -240,7 +307,10 @@
 			files = (
 				36741A6F21FEBE32009D19D5 /* LaunchScreen.storyboard in Resources */,
 				36741A6C21FEBE32009D19D5 /* Assets.xcassets in Resources */,
+				365C90A72202D11000AD4095 /* icons8-restaurant-table-25.png in Resources */,
 				36741A6721FEBE32009D19D5 /* Main.storyboard in Resources */,
+				365C907E2202D08600AD4095 /* ooking.png in Resources */,
+				362DB344220BA06B002BC801 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,15 +330,87 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0D30F38F30D30D59E7C4F4CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Bacon-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2385224AAE4C60E672DB0C41 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BaconTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		27C276944E759B82E14F4F6C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BaconUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		36741A5821FEBE32009D19D5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36741A6421FEBE32009D19D5 /* ViewController.m in Sources */,
 				36741A6A21FEBE32009D19D5 /* Bacon.xcdatamodeld in Sources */,
 				36741A7221FEBE33009D19D5 /* main.m in Sources */,
-				36741A6121FEBE32009D19D5 /* AppDelegate.m in Sources */,
+				36BD69FD21FEEEA300A4C49E /* detailPageViewController.m in Sources */,
+				36BD69FA21FEEE8A00A4C49E /* creativeViewController2.m in Sources */,
+				365C907C2202CF4200AD4095 /* recommendationViewController.m in Sources */,
+				36BD69FE21FEF65100A4C49E /* AppDelegate.m in Sources */,
+				365C90792202CF0600AD4095 /* creativeViewController1.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +579,7 @@
 		};
 		36741A8C21FEBE33009D19D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 259C0AD09A67CBEB7615E0F4 /* Pods-Bacon.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +597,7 @@
 		};
 		36741A8D21FEBE33009D19D5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFC13B0045415D6965844BEC /* Pods-Bacon.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -471,6 +615,7 @@
 		};
 		36741A8F21FEBE33009D19D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 292E2F67D0C402F389DED9EA /* Pods-BaconTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -490,6 +635,7 @@
 		};
 		36741A9021FEBE33009D19D5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05CC00BBF5CB52F640E4F31A /* Pods-BaconTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -509,6 +655,7 @@
 		};
 		36741A9221FEBE33009D19D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5A18AD71B3D6041925E4870 /* Pods-BaconUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C2JM7XLS3M;
@@ -527,6 +674,7 @@
 		};
 		36741A9321FEBE33009D19D5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21C0E50ED0EDB18B76E25DC7 /* Pods-BaconUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C2JM7XLS3M;
